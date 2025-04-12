@@ -45,11 +45,7 @@ const Sidebar: React.FC = () => {
       label: "Dashboard",
       href: "/dashboard",
     },
-    {
-      icon: <Video />,
-      label: "Mock Interview",
-      href: "/interview",
-    },
+    
     {
       icon: <CalendarCheck />,
       label: "Daily Tasks",
@@ -70,11 +66,7 @@ const Sidebar: React.FC = () => {
       label: "Chatbot",
       href: "/chatbot",
     },
-    {
-      icon: <Users />,
-      label: "Mentors",
-      href: "/mentors",
-    },
+    
     {
       icon: <Settings />,
       label: "Settings",
