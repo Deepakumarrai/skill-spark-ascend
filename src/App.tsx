@@ -4,7 +4,6 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
-import Interview from "./pages/Interview";
 import Tasks from "./pages/Tasks";
 import GrowthCycles from "./pages/GrowthCycles";
 import Login from "./pages/Login";
@@ -23,7 +22,6 @@ const App = () => (
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/interview" element={<Interview />} />
         <Route path="/tasks" element={<Tasks />} />
         <Route path="/growth-cycles" element={<GrowthCycles />} />
         {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
